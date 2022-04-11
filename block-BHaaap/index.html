@@ -1,0 +1,48 @@
+<!---
+
+### Create a web page with the following characteristics:
+
+1. Heading element(h1) should be at the top of the page.
+2. After the heading, there should be a paragraph.
+3. After the paragraph add an image having all the corner rounded.
+4. Below the image, there should be a circle with red background.
+5. At the bottom of the page, there must be a footer containing few links.
+6. The H1 has 1px red solid borders, background color #D18C1D, and 10px of space between the content and the border (padding)
+7. The paragraph is contained in 600px by 400px boxes with 2px black dotted borders and background color #D1D631
+8. Links have a 3px blue dashed border on the bottom only and background color #A1A1A1
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+
+--->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <title>box model asign-1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>STOCK MARKET</h1>
+            </div>
+        </header>
+        <main>
+            <article>
+                <p>A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms. Investment is usually made with an investment in mind.
+
+                    Stocks can be categorized by the country where the company is domiciled. For example, Nestlé and Novartis are domiciled in Switzerland and traded on the SIX Swiss Exchange, so they may be considered as part of the Swiss stock market, although the stocks may also be traded on exchanges in other countries, for example, as American depositary receipts (ADRs) on U.S. stock markets</p>
+                    <img src="./stock.jpeg" alt="graph">
+                    <div class="circle"></div>
+            </article>
+        </main>
+        <footer class="footer">
+            <nav>
+                <a href="https://en.wikipedia.org/wiki/List_of_stock_exchanges">List of stock exchange</a>
+                <a href="https://en.wikipedia.org/wiki/List_of_stock_market_indices">List of stock market indices</a>
+                <a href="https://en.wikipedia.org/wiki/Stock_market_cycle">Stock market cycle</a>
+            </nav>
+        </footer>
+    </body>
+</html>
